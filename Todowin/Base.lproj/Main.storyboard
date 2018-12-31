@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="2Mh-6s-cQ5" id="baU-c3-9IE"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todowin" id="G86-Cw-pPj"/>
+                    <navigationItem key="navigationItem" title="Todowin" id="G86-Cw-pPj">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="tcd-CP-bXg">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="2Mh-6s-cQ5" id="FGa-2P-cRk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BHq-oZ-7JG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
